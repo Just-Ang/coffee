@@ -1,10 +1,10 @@
+@charset "UTF-8";
 @import '~node_modules/modern-normalize/modern-normalize.css';
-
 :root {
-  --background-color: #f4f1ee;
+  --background-color: #84A178;
   --second-color: #F8D24E;
   --white-color: #FCFCFC;
-  --black-color: #000000;
+  --black-color: #131313;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -43,7 +43,7 @@ ul {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: var(--black-color);
+  font-family: "Montserrat", sans-serif;
+  color: var(--white-color);
   font-weight: 400;
 }
